@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+.smartphoneSize {
+    background: linear-gradient(-45deg, #d1ebf2, #d1dcf2, #d5d1f2, #e6d1f2);
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    background-position: 50% 50%;
+    background-size: 250% 100%;
+    background-color: black;
+    height: 667px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.logoMenu {
+    width: 375px;
+    text-align: center;
+}
+
+.logoMenu>img {
+    height: 100px;
+    margin-top: 25px;
+}
+
+.titleMenu {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.buttomLogin {
+    background-color: #ffffff;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.buttomRegister {
+    background-color: #ffffff;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.buttomGuest {
+    background-color: #ffffff;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.buttomContent {
+    color: #747d8c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.buttomLogin:hover,
+.buttomRegister:hover,
+.buttomGuest:hover,
+.buttomContent:hover {
+    background-color: #f1f2f6;
+    cursor: pointer;
+}
+
+#castle {
+    height: 343px;
+    width: 375px;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 48px;
+}
+
+#castle img {
+    display: block;
+    width: 90%;
+    opacity: 0.7;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+
+.backgroundCaslteMenu img {
+    margin-top: 300px;
+}
+
+#clouds {
+    height: 200px;
+    width: 375px;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    margin-top: 300px;
+}
+
+#clouds img {
+    display: block;
+    height: 200px;
+    opacity: 0.7;
+    width: 1200px;
+    animation-duration: 8s;
+}
