@@ -1,5 +1,5 @@
  // game parameters
- const BALL_SPD = 0.65; //tốc độ bóng
+ const BALL_SPD = 0.55; //tốc độ bóng
  const BALL_SPD_MAX = 1.75;
  const BALL_SPIN = 0.2;
  const BRICK_COLS = 14;
